@@ -23,16 +23,6 @@
     <resources>
         <artifact name="${org.wildfly:wildfly-microprofile-opentracing-smallrye}"/>
 
-        <artifact name="${io.smallrye:smallrye-opentracing}"/>
-
-        <artifact name="${io.opentracing:opentracing-api}"/>
-        <artifact name="${io.opentracing:opentracing-noop}"/>
-        <artifact name="${io.opentracing:opentracing-util}"/>
-        <artifact name="${io.opentracing.contrib:opentracing-concurrent}"/>
-        <artifact name="${io.opentracing.contrib:opentracing-jaxrs2}"/>
-        <artifact name="${io.opentracing.contrib:opentracing-web-servlet-filter}"/>
-
-        <artifact name="${io.opentracing.contrib:opentracing-tracerresolver}"/>
         <artifact name="${io.jaegertracing:jaeger-core}"/>
         <artifact name="${io.jaegertracing:jaeger-thrift}"/>
 
@@ -48,6 +38,6 @@
 
         <module name="org.jboss.logging"/>
 
-        <module name="org.eclipse.microprofile.opentracing"/>
+        <module name="io.smallrye.opentracing"/>
     </dependencies>
 </module>
